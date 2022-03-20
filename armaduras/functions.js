@@ -84,11 +84,11 @@ const getRandom = (ext) => {
 const spinner = { 
   "interval": 150,
   "frames": [
-"K",
-"KA",
-"KAL",
-"KALI",
-"KALI-LINUX",
+"A",
+"AL",
+"ALEA",
+"ALEATORY",
+"ALEATORY-MD",
   ]}
 
 let globalSpinner;
@@ -115,21 +115,21 @@ const close = (id, text) => {
 	spins.fail(id, {text: text})
 }
 
-const banner = cfonts.render(('KALI'), {
+const banner = cfonts.render(('ALEA-MD'), {
     font: 'block',
     align: 'center',
     colors: [`${cor1}`,`${cor3}`,`${cor4}`,`${cor2}`],
     lineHeight: 4
   });
 
-const banner2 = cfonts.render(('KALI-_-LINUX'), {
+const banner2 = cfonts.render(('By: - ALEA - '), {
     font: 'chrome',
     align: 'center',
     colors: [`${cor3}`,`${cor1}`,`${cor5}`],
     lineHeight: 1
   });
  
-const banner3 = cfonts.render((`KALI`), {
+const banner3 = cfonts.render((`ALEA-MD`), {
 font: 'simple',
 color: 'system',
 align: 'center',
